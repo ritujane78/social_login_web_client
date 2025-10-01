@@ -11,10 +11,12 @@ This project authenticates the user to access a webpage with googe/facebook/gith
 ## Steps:
 
 - A project needs to be created for:
-google:http://console.developers.google.com
-facebook: http://developers.facebook.com
-okta: https://developer.okta.com
+google: console.developers.google.com
+facebook: developers.facebook.com
+okta: developer.okta.com
 
 - The generated client_id and xlient_secret is stored in application.properties and login is made possible.
+
+The frontend is achieved through ** Thymeleaf ** template engine in Spring Boot.
 
 Likewise, successful logout can also be performed by clearing session and cache data.
